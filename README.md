@@ -74,3 +74,4 @@ npm run build
 2. Go to [Vercel](https://vercel.com) and import the repository.
 3. Vercel automatically detects Next.js.
 4. Click **Deploy**. Zero configuration needed!
+
