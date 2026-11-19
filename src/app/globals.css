@@ -1,0 +1,75 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-maroon: #4A1020;
+  --color-cream: #FFF8EF;
+  --color-gold: #C9A45C;
+  --color-charcoal: #25201D;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 5rem;
+}
+
+body {
+  color: #25201D;
+  background-color: #FFF8EF;
+  font-family: var(--font-sans), system-ui, sans-serif;
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Custom Gold & Maroon Scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #FFF8EF;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #C9A45C;
+  border-radius: 5px;
+  border: 2px solid #FFF8EF;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #4A1020;
+}
+
+/* Luxury Card & Glass Effects */
+.glass-maroon {
+  background: rgba(74, 16, 32, 0.88);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(201, 164, 92, 0.25);
+}
+
+.glass-cream {
+  background: rgba(255, 248, 239, 0.92);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(201, 164, 92, 0.35);
+}
+
+.gold-gradient-text {
+  background: linear-gradient(135deg, #F3D99E 0%, #C9A45C 50%, #99752D 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.gold-border-glow {
+  box-shadow: 0 0 15px rgba(201, 164, 92, 0.25);
+}
+
+/* Subtle Indian traditional pattern overlay */
+.bg-kolam-pattern {
+  background-image: radial-gradient(rgba(201, 164, 92, 0.12) 1px, transparent 1px);
+  background-size: 24px 24px;
+}
+
